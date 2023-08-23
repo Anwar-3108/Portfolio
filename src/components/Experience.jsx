@@ -18,7 +18,7 @@ const ExperienceCard =({experiences})=>(
   <p className='text-secondary text-[16px] font-semibold' style={{margin:0}}>{experiences.company_name}</p>
   <ul className='mt-5 list-disc ml-5 space-y-2'>
     {experiences.points.map((points,index)=>(
-      <li key={`experiences-point-${index}`} className='text-white-100 text-[14px]'>{experiences.points}</li>
+      <li key={`experiences-point-${index}`} className='text-white-100 text-[14px]'>{experiences.points[index]}</li>
     ))}
   </ul>
 </div>

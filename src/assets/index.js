@@ -25,8 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import masai from './company/masai.png' ;
 
 import carrent from "./carrent.png";
+import boatClone from './boatClone.png' ;
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -55,8 +57,10 @@ export {
   meta,
   shopify,
   starbucks,
+  masai,
   tesla,
   carrent,
+  boatClone,
   jobit,
   tripguide,
 };
