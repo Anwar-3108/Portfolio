@@ -272,4 +272,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, deployed_link };
+  export { services, technologies, experiences, testimonials, projects };
