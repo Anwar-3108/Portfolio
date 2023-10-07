@@ -224,7 +224,7 @@ import {
     {
       name: "Magma",
       description:
-        "UI interface of Real Estate Website",
+        "UI of Real Estate Website",
       tags: [
         {
           name: "HTML",
