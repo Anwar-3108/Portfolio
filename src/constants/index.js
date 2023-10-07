@@ -220,6 +220,7 @@ import {
       ],
       image: boatClone,
       source_code_link: "https://github.com/Anwar-3108/Boat-clone",
+      deployed_link: "https://boat-lifestylee.netlify.app"
     },
     {
       name: "Magma",
@@ -245,6 +246,7 @@ import {
       ],
       image: magma,
       source_code_link: "https://github.com/Anwar-3108/magma",
+      deployed_link: "https://magma-01.netlify.app/"
     },
     {
       name: "Trip Guide",
@@ -266,7 +268,8 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      deployed_link: "https://magma-01.netlify.app/"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, deployed_link };

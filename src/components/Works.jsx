@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+
 const ProjectCard = ({
   index,
   name,
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployed_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,7 +29,7 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
-        <a href="https://magma-01.netlify.app/">
+        <a href={deployed_link}>
           <img
             src={image}
             alt='project_image'
