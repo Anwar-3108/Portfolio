@@ -22,6 +22,7 @@ import {
     masai,
     carrent,
     boatClone,
+    magma,
     jobit,
     tripguide,
     threejs,
@@ -221,25 +222,29 @@ import {
       source_code_link: "https://github.com/Anwar-3108/Boat-clone",
     },
     {
-      name: "Job IT",
+      name: "Magma",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "UI interface of Real Estimate Website",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Canva",
           color: "pink-text-gradient",
         },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: magma,
+      source_code_link: "https://github.com/Anwar-3108/magma",
     },
     {
       name: "Trip Guide",
