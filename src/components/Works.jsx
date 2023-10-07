@@ -69,7 +69,7 @@ const ProjectCard = ({
           )) 
           
         }
-        <button  onClick={() => window.open(deployed_link, "_blank")}>
+        <button style={{cursor:'pointer'}}  onClick={() => window.open(deployed_link, "_blank")}>
           
         <span class="material-symbols-outlined"   >link</span>
         </button>
