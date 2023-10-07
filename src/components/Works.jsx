@@ -69,7 +69,7 @@ const ProjectCard = ({
           )) 
           
         }
-        <span class="material-symbols-outlined">link</span>
+        <span class="material-symbols-outlined"  onClick={() => window.open(deployed_link, "_blank")} >link</span>
         </div>
       </Tilt>
     </motion.div>
