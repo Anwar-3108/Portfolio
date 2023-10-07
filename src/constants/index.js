@@ -206,15 +206,15 @@ import {
         "Web-based platform that allows users to search, book smart watches , earbuds and headphones",
       tags: [
         {
-          name: "JavaScript",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
@@ -224,7 +224,7 @@ import {
     {
       name: "Magma",
       description:
-        "UI interface of Real Estimate Website",
+        "UI interface of Real Estate Website",
       tags: [
         {
           name: "HTML",
