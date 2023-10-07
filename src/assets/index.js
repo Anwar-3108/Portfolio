@@ -30,6 +30,7 @@ import masai from './company/masai.png' ;
 import carrent from "./carrent.png";
 import boatClone from './boatClone.png' ;
 import magma from "./magma.png";
+import haan from "./haan.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -63,6 +64,7 @@ export {
   carrent,
   boatClone,
   magma,
+  haan,
   jobit,
   tripguide,
 };

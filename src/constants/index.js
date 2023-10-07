@@ -23,6 +23,7 @@ import {
     carrent,
     boatClone,
     magma,
+    haan,
     jobit,
     tripguide,
     threejs,
@@ -203,7 +204,8 @@ import {
     {
       name: "BoAt",
       description:
-        "Web-based platform that allows users to search, book smart watches , earbuds and headphones",
+        
+"Explore our innovative web-based platform, designed to empower you with the ability to effortlessly search for and book cutting-edge smartwatches, high-quality earbuds, and premium headphones. Elevate your tech game with us today!",
       tags: [
         {
           name: "HTML",
@@ -225,7 +227,8 @@ import {
     {
       name: "Magma",
       description:
-        "UI of Real Estate Website",
+        
+"Immerse yourself in the stunning UI design of our Real Estate Website. We've crafted a visually captivating and user-friendly experience that will redefine the way you search for your dream property. Get ready for a seamless journey into the world of real estate!",
       tags: [
         {
           name: "HTML",
@@ -249,26 +252,30 @@ import {
       deployed_link: "https://magma-01.netlify.app/"
     },
     {
-      name: "Trip Guide",
+      name: "HAAN",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Discover our all-inclusive e-commerce platform, where you can conveniently purchase a wide range of essentials, including hand sanitizer, luxurious lotions, nourishing creams, and stylish sanitizer cases. Elevate your shopping experience with us!",
       tags: [
         {
-          name: "nextjs",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Express.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "Nodes.js",
+          color: "red-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: haan,
       source_code_link: "https://github.com/",
-      deployed_link: "https://magma-01.netlify.app/"
+      deployed_link: "https://hand-sanitizer-mern.netlify.app"
     },
   ];
   
