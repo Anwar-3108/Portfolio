@@ -57,14 +57,19 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
+          {
+          tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
               #{tag.name}
             </p>
-          ))}
+            
+          )) 
+          
+        }
+        <span class="material-symbols-outlined">link</span>
         </div>
       </Tilt>
     </motion.div>
