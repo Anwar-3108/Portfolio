@@ -239,7 +239,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Canva",
+          name: "Canvas",
           color: "pink-text-gradient",
         },
         {
